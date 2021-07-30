@@ -1,0 +1,6 @@
+aaaaaaaaaabbbbbbbccccccccc
+abc abc abc abc abc abc abc 
+<letter-sequence> ::= <a-sequence> <b-sequence> <c-sequence>
+<a-sequence> ::= a | <a-sequence> a
+<b-sequence> ::= b | <b-sequence> b
+<c-sequence> ::= c | <c-sequence>c
